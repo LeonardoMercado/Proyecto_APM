@@ -6,5 +6,5 @@ Repositorio para el dasarrollo del proyecto final del curso de Automatización d
 - Juan Sebastian Piña Jaramillo.
 - Leonardo Fabio Mercado Benítez.  
 - Nelson Daniel Cruz Camelo.
-- Michael Alexander Rodriguez Urbina
 - Manuel Alejandro Rojas Cubillos.
+- Michael Alexander Rodriguez Urbina

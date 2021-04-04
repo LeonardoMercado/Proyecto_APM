@@ -1,7 +1,0 @@
-Leonardo confirma
-<<<<<<< HEAD
-Manuel confirma
-=======
-Michael confirma
-Nelson confirma
->>>>>>> 7041a31b6fe8f6f6824eef045c644678c71bbb80
