@@ -1,0 +1,4 @@
+﻿"Symbol";"Value";"Unit";
+"DESIGN";"IEC-Norm-Motoren dreiphasig | Serie AT";"";
+"REFERENCE";"AT100B2";"";
+"SUPPLIER";"Technische Antriebselemente GmbH - Germany";"";
