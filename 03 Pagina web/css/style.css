@@ -683,7 +683,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
-#testimonials .profile h4 {
+#testimonials .profile h3 {
   font-weight: 700;
   color: #03C4EB;
   margin-bottom: 5px;
@@ -699,7 +699,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px;
   margin-top: 40px;
   font-size: 16px;
-  font-style: italic;
+  font-style: inherit;
   border-radius: 5px;
 }
 
