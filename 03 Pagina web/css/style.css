@@ -7,6 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+
 a {
   color: #03C4EB;
   transition: 0.5s;
@@ -30,6 +31,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+hr {
+  border: #03C4EB solid 1px;
+  width: 50%;
+}
+
 /* Prelaoder */
 #preloader {
   position: fixed;
@@ -46,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -63,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   outline: none;
 }
@@ -509,8 +515,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-#gestion .gestion-container {
+#gestion .gestion-container-left {
   background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#gestion .gestion-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
 }
 
 #gestion .gestion-content {
@@ -521,10 +531,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
   font-weight: 700;
   font-size: 28px;
+  text-align: center;
 }
 
 #gestion .gestion-text {
   line-height: 26px;
+  text-align: justify;
 }
 
 #gestion .gestion-text:last-child {
@@ -536,15 +548,76 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Industria 4.0 en la Automatización
 ------------------------------------------------*/
+#industria {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#industria .industria-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
 
+#industria .industria-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#industria .industria-content {
+  background: #fff;
+}
+
+#industria .industria-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#industria .industria-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#industria .industria-text:last-child {
+  margin-bottom: 0;
+}
 
 /*-----------------------------------------------*/
 
 
 /* Planeación del proyecto
 ------------------------------------------------*/
+#planeacion {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#planeacion .planeacion-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#planeacion .planeacion-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#planeacion .planeacion-content {
+  background: #fff;
+}
+
+#planeacion .planeacion-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#planeacion .planeacion-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#planeacion .planeacion-text:last-child {
+  margin-bottom: 0;
+}
 
 
 /*-----------------------------------------------*/
@@ -552,7 +625,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Evaluación económica de Proyectos
 ------------------------------------------------*/
+#evaluacion {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#evaluacion .evaluacion-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#evaluacion .evaluacion-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#evaluacion .evaluacion-content {
+  background: #fff;
+}
+
+#evaluacion .evaluacion-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#evaluacion .evaluacion-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#evaluacion .evaluacion-text:last-child {
+  margin-bottom: 0;
+}
 
 
 /*-----------------------------------------------*/
@@ -560,7 +664,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Celda de manufactura robotizadas
 ------------------------------------------------*/
+#celda {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#celda .celda-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#celda .celda-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#celda .celda-content {
+  background: #fff;
+}
+
+#celda .celda-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#celda .celda-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#celda .celda-text:last-child {
+  margin-bottom: 0;
+}
 
 
 /*-----------------------------------------------*/
@@ -568,7 +703,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Digital Factory
 ------------------------------------------------*/
+#factory {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#factory .factory-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#factory .factory-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#factory .factory-content {
+  background: #fff;
+}
+
+#factory .factory-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#factory .factory-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#factory .factory-text:last-child {
+  margin-bottom: 0;
+}
 
 
 /*-----------------------------------------------*/
@@ -576,7 +742,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Controladores Industriales (PLC):
 ------------------------------------------------*/
+#plc {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#plc .plc-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#plc .plc-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#plc .plc-content {
+  background: #fff;
+}
+
+#plc .plc-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#plc .plc-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#plc .plc-text:last-child {
+  margin-bottom: 0;
+}
 
 
 /*-----------------------------------------------*/
@@ -584,7 +781,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Actuadores de automatización:
 ------------------------------------------------*/
+#actuadores {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#actuadores .actuadores-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#actuadores .actuadores-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#actuadores .actuadores-content {
+  background: #fff;
+}
+
+#actuadores .actuadores-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#actuadores .actuadores-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#actuadores .actuadores-text:last-child {
+  margin-bottom: 0;
+}
 
 
 /*-----------------------------------------------*/
@@ -593,7 +821,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* SCADA:
 ------------------------------------------------*/
 
+#scada {
+  background: #fff;
+  padding: 80px 0;
+}
 
+#scada .scada-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#scada .scada-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#scada .scada-content {
+  background: #fff;
+}
+
+#scada .scada-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#scada .scada-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#scada .scada-text:last-child {
+  margin-bottom: 0;
+}
 
 /*-----------------------------------------------*/
 
@@ -963,3 +1222,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+
+
