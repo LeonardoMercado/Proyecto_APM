@@ -501,6 +501,111 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+
+/* Gestión de producción y automatización
+------------------------------------------------*/
+#gestion {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#gestion .gestion-container {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#gestion .gestion-content {
+  background: #fff;
+}
+
+#gestion .gestion-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#gestion .gestion-text {
+  line-height: 26px;
+}
+
+#gestion .gestion-text:last-child {
+  margin-bottom: 0;
+}
+
+/*-----------------------------------------------*/
+
+
+/* Industria 4.0 en la Automatización
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+/* Planeación del proyecto
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+/* Evaluación económica de Proyectos
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+/* Celda de manufactura robotizadas
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+/* Digital Factory
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+/* Controladores Industriales (PLC):
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+/* Actuadores de automatización:
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+/* SCADA:
+------------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
 /* Services Section
 --------------------------------*/
 #services {
