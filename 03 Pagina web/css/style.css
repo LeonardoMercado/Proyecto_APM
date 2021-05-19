@@ -250,6 +250,7 @@ hr {
 .nav-menu li {
   position: relative;
   white-space: nowrap;
+  text-align: center;  
 }
 
 .nav-menu > li {
@@ -293,6 +294,7 @@ hr {
   float: right;
   margin: 5px 0;
 }
+
 
 @media (max-width: 768px) {
   #nav-menu-container {
