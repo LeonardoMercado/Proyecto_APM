@@ -487,22 +487,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-#about .about-container {
+#about .about-container-left {
   background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#about .about-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
 }
 
 #about .about-content {
   background: #fff;
+}
+#about img{
+  width: 100%;
+
 }
 
 #about .about-title {
   color: #333;
   font-weight: 700;
   font-size: 28px;
+  text-align: center;
 }
 
 #about .about-text {
   line-height: 26px;
+  text-align: justify;
 }
 
 #about .about-text:last-child {
@@ -527,6 +537,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #gestion .gestion-content {
   background: #fff;
+}
+#gestion img{
+  width: 100%;
 }
 
 #gestion .gestion-title {
@@ -561,6 +574,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #industria .industria-container-rigth {
   background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#industria img{
+  width: 100%;
 }
 
 #industria .industria-content {
@@ -599,6 +616,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #planeacion .planeacion-container-rigth {
   background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#planeacion img{
+  width: 100%;
 }
 
 #planeacion .planeacion-content {
@@ -640,6 +661,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/about-img.jpg) right top no-repeat;
 }
 
+#evaluacion img{
+  width: 100%;
+}
+
 #evaluacion .evaluacion-content {
   background: #fff;
 }
@@ -677,6 +702,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #celda .celda-container-rigth {
   background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#celda img{
+  width: 100%;
 }
 
 #celda .celda-content {
@@ -718,6 +747,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/about-img.jpg) right top no-repeat;
 }
 
+#factory img{
+  width: 100%;
+}
+
 #factory .factory-content {
   background: #fff;
 }
@@ -755,6 +788,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #plc .plc-container-rigth {
   background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#plc img{
+  width: 100%;
 }
 
 #plc .plc-content {
@@ -796,6 +833,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/about-img.jpg) right top no-repeat;
 }
 
+#actuadores img{
+  width: 100%;
+}
+
 #actuadores .actuadores-content {
   background: #fff;
 }
@@ -834,6 +875,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #scada .scada-container-rigth {
   background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#scada img{
+  width: 100%;
 }
 
 #scada .scada-content {
