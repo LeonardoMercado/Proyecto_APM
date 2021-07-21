@@ -264,19 +264,19 @@
         <div class="col-md-12">
           <h3 class="section-title">Gestión de producción y automatización</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Simulación realizada, análisis de resultados, KPI’s y propuesta MES.</p>
+          <p class="section-description">Simulaciones realizadas, análisis de resultados, KPI’s y Propuesta MES.</p>
         </div>
       </div>
     </div>
     <div class="container wow fadeInUp">
       <div class="row">        
         <div class="col-md-6 gestion-content">
-          <h2 class="gestion-title">Simulación Realizada</h2>
+          <h2 class="gestion-title">Simulaciones Realizadas</h2>
           <p class="gestion-text">
             Gracias a los datos obtenidos en el documento base, se realiza una detallada simulación en el software Plant Simulation de Siemens, en donde plasmamos todos los datos referidos al proceso de fabricación de cada una de las bicicletas, tales como tiempos de proceso, tiempos de setup, distribución de las estaciones en la planta y distribución de las materias primas a medida que se van transformando en la cadena de producción. 
           </p>
           <p class="gestion-text">
-            Estas simulaciones nos permitieron observa en que parte de la cadena de producción se trabaja más, que estaciones presentaban altos tiempos de espera y que estaciones ocupaban gran parte del tiempo en su configuración. 
+            Estas simulaciones nos permitieron observa en que parte de la cadena de producción se trabaja más, que estaciones presentaban altos tiempos de espera y que estaciones ocupaban gran parte del tiempo en su configuración. A partir de estos resultados se toma la decisión de intervenir ciertas estaciones con el fin de lograr los objetivos del proyecto, se aplican los cambios y se vuelve a simular para verificar los resultados.
           </p>                   
         </div>
         <div class="col-md-6 gestion-content-img">
@@ -290,44 +290,125 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12 gestion-content">
-          <h2 class="gestion-title">Simulación de bicicleta tipo playera: </h2>
+          <h2 class="gestion-title">Simulación de bicicleta tipo Playera sin automatizar:</h2>
           <p class="gestion-text">            
-            El layout implementado, los tiempos de proceso y demás información con respecto a la fabricación de las bicicletas tipo playera se pueden observar en la siguiente imagen: 
+            El layout implementado, los tiempos de proceso, los tiempos de setting, los materiales utilizados y el flujo de estos en la línea de producción de las bicicletas tipo playera se pueden observar en la siguiente imagen: 
           </p>
-          <img src="img/layout_playera.svg" alt="" title=""/>          
+          <img src="img/layout_playera.svg" alt="" title=""/>
+          <br></br>
+          <h2 class="gestion-title" style="text-align: center;">Proceso de fabricación:</h2>          
           <p class="gestion-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
+            Para la fabricación de las bicicletas tipo playeras se inicia con tubos de diferentes diámetros los cuales ingresan a la estación de Corte para su procesamiento, de esta estación salen un total de 12 tubos los cuales conforman el cuerpo de la bicicleta, 8 de estos tubos pasan a la estación de Doblado en donde toman la forma curva tan característica del estilo de estas bicicletas, 6 de estos tubos pasan a la estación de Conformado donde se realiza un conformado a la punta de los tubos para su posterior soldado con otras piezas, los otros 2 tubos pasan directamente a la estación de Mecanizado, donde junto con 4 tubos provenientes de la estación de corte se les realiza operaciones de roscado, perforado y boca de pescado. Así pasan 12 tubos previamente procesados a la estación de Soldado, donde junto con 8 piezas se sueldan para conformar el marco de la bicicleta y la horquilla, seguidamente pasamos a la estación de Estampado, en donde se le da forma al cubrecadenas de la bicicleta. Después, el marco, la horquilla y el cubrecadenas ingresan a la estación de Pretratamiento superficial, en donde atreves de unos baños químicos se logra la calidad superficial necesaria en las piezas para su correcta adherencia a la pintura, seguidamente las piezas pasan a la estación de Secado en Horno en donde se les aplica calor para secar las piezas, pasan seguidamente a la estación de Pintura en donde un operario se encarga de pintar correctamente las tres piezas y posteriormente pasan a la estación de Curado En Horno, en donde la pintura previamente aplicada se cura apropiadamente, de esta estación salen tres piezas: una que es la horquilla pasa a la estación de Horquilla, y dos que son el marco y el cubrecadenas pasan a la estación de Inserción de cubetas, en donde se le insertan las cubetas al marco, seguidamente pasan a la estación de Armado de caja Pedalera en donde se ensambla el juego de caja central y biela tipo Z al marco de la bicicleta, posteriormente se pasa a la estación de Colocación de cubrecadena en donde se le instala el cubrecadena al marco de la bicicleta, inmediatamente pasan a la estación C.B.A (Caño, bulón y asiento), en donde se instala el tubo del sillín, el tornillo del collarín y el sillín al marco de la bicicleta, seguidamente pasan a la estación Horquilla en donde se instala la horquilla al marco de la bicicleta junto con el juego de dirección, posteriormente se pasa a la estación S.F.P (Sten, Forma , Puños y Freno) en donde se instala la caña de dirección, el manillar y los mangos a la bicicleta y pasa todo el conjunto a la estación de Limpieza y Desengrase. 
+          </p>
+          <p class="gestion-text">
+            En la estación de Armado de Ruedas y aproximación de Rayos, se ingresan los dos rines y las manzanas previamente ensambladas con los rayos, a una máquina semi automática que se encarga de apretar los rayos a los rines con las cabecillas de los rayos. Posteriormente se pasa a otra máquina semi automática que se encarga de darle apriete a los rayos de forma que la circularidad de los rines se mantenga, seguidamente se pasa a la estación de Engomado y Colocación de Piñon, en donde se coloca una cinta protectora a los rines de forma que no se dañen los neumaticos que se colocarán a posterior, de igual manera se monta el piñon a la rueda trasera, posteriormente se pasa a la estación de Rueda trasera y Cadena colocación, en donde se realiza el montaje de la rueda trasera a la bicicleta así como el montaje de la cadena y el ajuste del freno de contra pedal, seguidamente se pasa a la estación de Rueda Delantera Colocación en donde se monta la rueda delantera en la bicicleta, por último, en la estación de Limpieza y Desengrase se realiza una limpieza metódica a la bicicleta, se verifica que cumpla con los parametros de calidad de la fábrica, se aplican los stickers y se empaca la bicicleta para su almacenamiento.
           </p>
         </div>
       </div>
     </div>
-
-    <hr/>
-
+    <hr>
     <div class="container wow fadeInUp">
       <div class="row">
-        <div class="col-md-6 gestion-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
-        </div>        
-        <div class="col-md-6 gestion-content">
-          <h2 class="gestion-title">We provide great services and ideass</h2>
+        <div class="col-md-12 gestion-content">
+          <h2 class="gestion-title">Simulación de bicicleta tipo Ruta sin automatizar:</h2>
+          <p class="gestion-text">            
+            El layout implementado, los tiempos de proceso, los tiempos de setting, los materiales utilizados y el flujo de estos en la línea de producción de las bicicletas tipo playera se pueden observar en la siguiente imagen: 
+          </p>
+          <img src="img/layout_ruta.svg" alt="" title=""/>
+          <br></br>
+          <h2 class="gestion-title" style="text-align: center;">Proceso de fabricación:</h2>             
           <p class="gestion-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
+            El proceso de fabricación de las bicicletas tipo playera inicia con la entrada de tubos de varios diámetros a la estación de Corte, en donde dichos tubos se cortan en diferentes longitudes, en total de esta estación salen 12 tubos, los cuales pasan 6 a la estación de Mecanizado y 6 a la estación de Doblado, en esta estación se le aplica un pequeño dobles a los tubos, de esta forma salen 2 tubos a la estación de Mecanizado y 4 a la estación de Conformado, en esta estación se le realiza un pequeño conformado en las puntas a los tubos que ingresan, despues de esta operación los tubos pasan a la estación de Mecanizado, en esta estación se realizan diferentes operaciones, tales como Roscado, Boca de Pescado y Perforado. En total se procesan los 12 tubos los cuales pasan a la estación de Soldado que junto con diferentes piezas se sueldan para dar forma al marco de la bicicleta y a la horquilla de esta. Después del soldado se pasa a la estación de Pretratamiento Superficial, en donde se le aplican una serie de baños químicos con aspersores a la bicicleta con el fin de garantizar la correcta adherencia de la pintura que se aplicará en las siguientes estaciones, seguidamente se ingresa a la estación de Secado en Horno en donde se secan las partes tratadas anteriormente. Posteriormente se ingresa a la estación de Pintura, en donde un operario se encarga de pintar las partes de la bicicleta, después de su pintura las piezas ingresan a la estación de Curado en Horno, en donde se seca la pintura previamente aplicada, de esta estación salen dos piezas, la horquilla que pasa directamente a la estación donde se realizara su montaje y el marco de la bicicleta que pasa a la estación de Inserción de Cubetas, en donde se insertan las cubetas o copas a la bicicleta, seguidamente se pasa a la estación de Armado de Caja Pedalera en donde se ensamblan al marco de la bicicleta el juego de caja central y la biela tipo Z, Posteriormente se ingresa a la estación de C.B.A (Caño, bulón y asiento) en donde se instala el tubo del sillín, el tornillo del collarín y el asiento a la bicicleta, seguidamente se pasa a la estación de Horquilla, en donde junto con el juego de dirección se instala la horquilla al marco de la bicicleta. Se continua el proceso con el ingreso a la estación S.F.P (Sten, Forma, Puños y Frenos), en donde se instala la caña de dirección, el manillar, los frenos delanteros y los mangos de la bicicleta, luego se pasa todo el ensamble a la estación de Limpieza y Desengrase.
           </p>
           <p class="gestion-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
+            En la estación de Armado de Ruedas y aproximación de Rayos, se ingresan los dos rines y las manzanas previamente ensambladas con los rayos, a una máquina semi automática que se encarga de apretar los rayos a los rines con las cabecillas de los rayos. Posteriormente se pasa a otra máquina semi automática que se encarga de darle apriete a los rayos de forma que la circularidad de los rines se mantenga, seguidamente se pasa a la estación de Engomado y Colocación de Piñon, en donde se coloca una cinta protectora a los rines de forma que no se dañen los neumaticos que se colocarán a posterior, de igual manera se monta el piñon a la rueda trasera, posteriormente se pasa a la estación de Rueda trasera y Cadena colocación, en donde se realiza el montaje de la rueda trasera a la bicicleta así como el montaje de la cadena y el ajuste del freno de contra pedal, seguidamente se pasa a la estación de Rueda Delantera Colocación en donde se monta la rueda delantera en la bicicleta, por último, en la estación de Limpieza y Desengrase se realiza una limpieza metódica a la bicicleta, se verifica que cumpla con los parametros de calidad de la fábrica, se aplican los stickers y se empaca la bicicleta para su almacenamiento. 
           </p>
-          <p class="gestion-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
-        </div>        
+        </div>
+      </div>
+    </div>  
+    <hr>  
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 gestion-content">
+          <h2 class="gestion-title">Análisis de Resultados sin automatizar:</h2>
+          <div class="container wow fadeInUp">
+            <div class="row">        
+              <div class="col-md-6 gestion-content">
+                <h2 class="gestion-title">Bicicleta Tipo Playera</h2>
+                <p class="gestion-text">
+                  Para la fabricación de las bicicletas tipo playera observamos una distribución de la carga de trabajo desigual, esto es debido a que unas estaciones realizan un trabajo más pesado o largo en el tiempo que otras en las cuales su función es insertar piezas que se realiza de forma rápida. De igual manera observamos estaciones con un alto porcentaje del tiempo gastado en su configuración, a saber, la estación de Corte, la estación de Boca de Pescado, la estación de Soldado y la estación de Armado de ruedas y aproximación de Rayos. La estación de corte tiene un alto gasto de tiempo en su configuración dado que los tubos que ingresan son tubos en 6 metros lo que dificulta su movimiento y preparación para la operación, mientras que la operación en sí de corte es relativamente rápida, de igual manera la estación requiere un constante cambio en el disco de corte.  La estación de boca de pescado presenta un alto gasto de tiempo en su configuración debido a que se utiliza una prensa hidraulica manual, esto provoca demoras significantes en el proceso de fabricación de las bicicletas. La estación de soldado presenta un alto de gasto en su configuración ya que los tubos que conforman el marco de la bicicleta y la horquilla deben ser montados sobre una matriz prediseñada y luego si se procede como tal al proceso de soldar las piezas, por ultimo la estación de Armado de ruedas y aproximación de rayos presenta un alto tiempo gastado en su configuración ya que las manzanas de las bicicletas deben ser enrayadas a mano antes de ser presentadas a los rines. Esto nos indica que estas 4 estaciones son fuertes candidatas para ser intervenidas con el fin de aumentar y mejorar la producción de bicicletas.
+                </p>
+                <p class="gestion-text">
+                  Por último se observa la presencia de fallas en las estaciones de Corte, de doblado y de secado. Para la estación de corte se puede deber a los cambios constantes del disco de corte, para la estación de doblado puede ser debido fallas en la presión hidráulica utilizada en la máquina semi automática que se utiliza para su proceso y por último para la estación de secado puede ser debido a fallas en los calentadores utilizados para su proposito. 
+                  Puede visualizar el informe completo de resultados dando click en las imágenes o en el siguiente <a href="files/unido_playera.pdf" target="_blank">link</a>.  
+                </p>              
+              </div>
+              <div class="col-md-6 gestion-content" style="padding-top: inherit;">
+                <a href="files/resultados_playera.pdf" target="_blank"><img src="img/resultados_playera.jpg" alt="Bicicleta Tipo Playera" title=""/></a>
+                <a href="files/resultados_playera_completo.pdf" target="_blank"><img src="img/resultados_playera_completo.png" alt="Bicicleta Tipo Playera" title=""/></a>
+              </div>
+            </div>
+          </div>   
+          <hr/>
+        </div>
+      </div>
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-md-12 gestion-content">            
+            <div class="container wow fadeInUp">
+              <div class="row">        
+                <div class="col-md-6 gestion-content">
+                  <a href="files/resultados_ruta.pdf" target="_blank"><img src="img/resultados_ruta.jpg" alt="Bicicleta Tipo Playera" title=""/></a>
+                  <a href="files/resultados_ruta_completo.pdf" target="_blank"><img src="img/resultados_ruta_completo.png" alt="Bicicleta Tipo Playera" title=""/></a>
+                </div>
+                <div class="col-md-6 gestion-content">
+                  <h2 class="gestion-title">Bicicleta Tipo Ruta</h2>
+                  <p class="gestion-text">
+                    Para la fabricación de las bicicletas tipo Ruta se observa nuevamente un desbalance en los tiempos de trabajo entre las estaciones, esto es debido a que hay estaciones que realizan un trabajo más largo en el tiempo que otras estaciones las cuales solo ensamblan piezas de manera rápida. Por otra parte se observa nuevamente el patrón de altos tiempos de configuración en las estaciones de Corte, Boca de pescado, Soldado y Armado de ruedas y aproximación de Rayos. Esto nos confirma nuevamente que estas estaciones deben ser intervenidas para alcanzar el objetivo del proyecto. 
+                  </p>
+                  <p class="gestion-text">
+                    Para este caso se observa también un alto tiempo de bloqueo en las estaciones de Pretratamiento superficial, Secado, Pintura, Inserción de Cubetas, Armado de caja Pedalera, C.B.A y Horquilla, esto puede ser debido a demoras presentes en el proceso de Soldado el cual a demostrado ser un cuello de botella para la fabricación de las bicicletas. También podemos ver bloqueos en las estaciones de Engomado y Colocación de Piñon esto puede ser debido a demoras en las estación de Armado de ruedas y aproximación de Rayos que como se observa nuevamente presenta un alto tiempo de operación gastado en su configuración.
+                  </p> 
+                  <p class="gestion-text">                                 
+                  Por último podemos ver que las estaciones de Corte, Doblado, Secado y Curado presentan nuevamente un porcentaje de su tiempo en fallas, como se comento anteriormente, en la estación de Corte puede ser debido al cambio constante de su disco de corte, en doblado a perdidas de presión hidráulicas necesarias para su operación y en las estaciones de Secado y Curado debido a problemas en los calentadores utilizados para su proposito. 
+                  </p> 
+                  <p class="gestion-text">  
+                  Puede visualizar el informe completo dado click en las imágenes o en el siguiente <a href="files/unido_ruta.pdf" target="_blank">link</a>.
+                  </p> 
+                </div>
+              </div>
+            </div>             
+          </div>
+        </div> 
+      </div>   
+      <br></br>    
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-md-12 gestion-content">
+            <h2 class="gestion-title">Estaciones por intervenir:</h2>
+            <p class="gestion-text">
+              Del análisis anteriormente realizado se establece que las estaciones con mayor necesidad de automatizar son las estaciones que presentan mayor tiempo de configuración, a saber, la estación Corte, Boca de pescado, Soldado y Armado de ruedas y aproximación de Rayos.
+            </p>
+            <p class="gestion-text">
+              Para la estación de Corte se establece que a partir de actuadores neumaticos podemos automatizar su función, acortando los tiempos de configuración y mejorando su desempeño. Para la estación de boca de pescado se determina que podemos usar actuadores neumaticos e hidraulicos para mejorar su desempeño, evitando así que la configuración de la estación sea netamente manual. Por ultimo se puede intervenir la estación de Soldado o la estación de Armado de ruedas y aproximación de Rayos, en este caso decidimos intervenir la estación de Soldado a partir de una celda robotizada que optimice el tiempo de la estación, ya que mientras un operario va ubicando las piezas en una matriz un robot puede ir soldando el marco de la bicicleta, generando así una ganancia enorme en tiempo.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-
+    <hr>
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 gestion-content">
+          <h2 class="gestion-title">KPIs del proceso sin automatizar:</h2>
+          <p class="gestion-text">
+            Del análisis anteriormente realizado se establece que las estaciones con mayor necesidad de automatizar son las estaciones que presentan mayor tiempo de configuración, a saber, la estación Corte, Boca de pescado, Soldado y Armado de ruedas y aproximación de Rayos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
   </section>
 
   <!--==========================
