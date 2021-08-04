@@ -1,0 +1,1190 @@
+﻿STEP to UG
+! INFO-     NX STEP AP214 - V1899
+! INFO-      
+! INFO-     Start of Translation: 2-AUG-2021  8:17:11 PM
+! INFO-      
+! STATUS-   Converting Part: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Estacion_BocaPescado.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        D:\Nelson\Documentos\Inventor\Estacion_BocaPescado\Estacion_BocaPescado.stp
+! SUMMARY-  Date             2021-08-02T20:16:04-05:00
+! SUMMARY-  Author           Nelson
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v18.1
+! SUMMARY-  Orig_System      Autodesk Inventor 2021
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:  15000
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:  24526
+! SUMMARY-  b_spline_curve_with_knots ..................................:   4212
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    670
+! SUMMARY-  b_spline_surface_with_knots ................................:    840
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    500
+! SUMMARY-  brep_with_voids ............................................:      3
+! SUMMARY-  cartesian_point ............................................: 201751
+! SUMMARY-  circle .....................................................:  10205
+! SUMMARY-  closed_shell ...............................................:    171
+! SUMMARY-  conical_surface ............................................:    976
+! SUMMARY-  context_dependent_shape_representation .....................:    203
+! SUMMARY-  cylindrical_surface ........................................:   3122
+! SUMMARY-  direction ..................................................:  73353
+! SUMMARY-  edge_curve .................................................:  39735
+! SUMMARY-  edge_loop ..................................................:  16552
+! SUMMARY-  ellipse ....................................................:    347
+! SUMMARY-  face_bound .................................................:   1552
+! SUMMARY-  face_outer_bound ...........................................:  15000
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:    111
+! SUMMARY-  item_defined_transformation ................................:    203
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:  24301
+! SUMMARY-  manifold_solid_brep ........................................:    156
+! SUMMARY-  next_assembly_usage_occurrence .............................:    203
+! SUMMARY-  open_shell .................................................:      8
+! SUMMARY-  oriented_closed_shell ......................................:     12
+! SUMMARY-  oriented_edge ..............................................:  79430
+! SUMMARY-  plane ......................................................:   8733
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:    110
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:    110
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:    110
+! SUMMARY-  product_definition_shape ...................................:    313
+! SUMMARY-  product_related_product_category ...........................:    110
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:    203
+! SUMMARY-  shape_representation .......................................:    110
+! SUMMARY-  shell_based_surface_model ..................................:      8
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  spherical_surface ..........................................:    197
+! SUMMARY-  toroidal_surface ...........................................:    632
+! SUMMARY-  uncertainty_measure_with_unit ..............................:    111
+! SUMMARY-  vector .....................................................:  24301
+! SUMMARY-  vertex_point ...............................................:  25873
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         574069
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 2-AUG-2021 8:17:15 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:17:58 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ISO 4017 - M10 x 20
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:13 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Soporte Sensor Inductivo
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:14 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xs618b1mal2_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:14 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xs618b1mal2_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:14 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xs618b1mal2_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:14 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Acrilico1_Mesa
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:15 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Acrilico2_Prensa
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:15 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Acrilico1_Prensa
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:15 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Placa cilindro hidraulico
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:15 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\CilindroHidraulico_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:15 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\CilindroHidraulico_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:15 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Tabla_Instructivo
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:15 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Advertencia
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:16 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ISO 4032 - M4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:16 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ISO 7045 - M4 x 20 - 4.8 - H
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:16 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\71GPbQWb4kL
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:16 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Banda de montaje
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:16 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\3sb3501-2ea71
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:17 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04303733
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:17 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ISO 4762  - M8 x 70
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:17 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Soporte1_CilindroHorizontal
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:17 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04893142_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:17 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04893142_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:17 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04893142_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:18 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04893142_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:18 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Barra_1_1-8_600
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:18 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xawf178ex_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:19 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xawf178ex_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:21 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xawf100ex
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:22 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_08
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:22 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_07
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:22 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_06
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:23 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_05
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:23 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:24 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:25 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:25 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:26 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Stop sliding
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:26 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\DIN 7984 - M14 x 35
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:26 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PUNZON
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:26 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ALLEN DIN 912 10x60
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:26 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ALLEN DIN 912 - M8x25
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:26 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ALLEN DIN 012-M10x40
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:26 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ALLEN DIN 912 10x30
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PASADOR DIN1480 8_x_50_st
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\DIN 7_10m6x60
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\DIN 7_8m6x30
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PRIS DIN_915-M8x20
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\LIMITADOR CARRERA
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\_2192.10.16.040
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\_202.41.01732
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\_202.21.032.200.10(ET)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:27 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\CASQUILLO 2051_32_032_060_10 FIBRO
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:28 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PLACA SUPERIOR
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:28 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PLACA BASE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:28 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\RESORTE COMPRESION
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:28 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\GUIA
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:29 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\SUPLEMENTO MATRIZ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:29 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\MATRIZ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:29 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PORTA_MATRIZ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:29 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\LEVA_MATRIZ_106
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:29 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\LEVA_104
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:29 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\LEVA_102
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:29 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\EMPUJADOR
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\SOPORTE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Soporte de matriz
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Angulo en V
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PerfilZ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Mesa_soporte2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Mesa_soporte1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Mesa_base2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Mesa_base3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:30 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Mesa_base1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:31 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Pata_mesa
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:31 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Mesa_cortadora
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:31 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\ISO 4762  - M6 x 50
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:31 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04766013_05
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:31 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04766013_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:31 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04766013_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:31 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04766013_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\DIN 933 - M6  x 12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\V-Groove_Roller
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\DIN 7984 - M8 x 20
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Buje soporte superior
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Soporte Superior Tubos
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Soporte Piston
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Eje roscado base soporte tubo
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:32 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Base soporte tubos
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:33 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 013
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:33 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Bomba Hidraulica
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    68
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             68
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:37 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 012
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:37 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 011
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:37 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 008
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:38 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 009
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:38 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 004
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:38 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 001
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:38 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 003
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:38 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 007
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:38 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\PH 005
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:38 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\eESTRUTURA
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    21
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             21
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:39 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04766013
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:39 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Ensamble Mecanismo cilindro
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    36
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             36
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:39 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Mesa
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    17
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             17
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:39 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\TUBING NOTCHER DIE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    43
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             43
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:39 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\nsycrn64250p
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              8
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:40 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xawf178ex
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:40 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\04893142
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:40 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\CilindroHidraulico
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:40 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\xs618b1mal2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 2-AUG-2021  8:18:40 PM
+! INFO-     Filing Part ..: D:\Nelson\Documentos\Doc Universidad Nacional\Auto\Digital Twin\Estacion Boca de Pescado\Estacion_BocaPescado.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    63
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             63
+! INFO-      
+! INFO-     Total number of solids input for this translation       :       161
+! INFO-      
+! INFO-     Number of solids created without body validation faults :       161
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 2-AUG-2021  8:18:42 PM
+! INFO-      
