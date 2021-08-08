@@ -570,6 +570,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+table {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border-collapse: collapse;
+}
+th, td{  
+  padding: 20px;
+  text-align: center;
+}
+thead{
+  background-color: #04a2c2;
+  border-bottom: solid 5px #025770;
+  color: white;
+}
+th{
+  font-weight: 1000;
+}
+tr:nth-child(even){
+  background-color: #DDD;
+}
+tr:hover td{
+  background-color: #03C4EB;
+  color: white;
+}
+
 /*-----------------------------------------------*/
 
 
