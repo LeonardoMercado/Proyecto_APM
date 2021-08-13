@@ -390,7 +390,7 @@
               Del análisis anteriormente realizado se establece que las estaciones con mayor necesidad de automatizar son las estaciones que presentan mayor tiempo de configuración, a saber, la estación Corte, Boca de pescado, Soldado y Armado de ruedas y aproximación de Rayos.
             </p>
             <p class="gestion-text">
-              Para la estación de Corte se establece que a partir de actuadores neumaticos podemos automatizar su función, acortando los tiempos de configuración y mejorando su desempeño. Para la estación de boca de pescado se determina que podemos usar actuadores neumaticos e hidraulicos para mejorar su desempeño, evitando así que la configuración de la estación sea netamente manual. Por ultimo se puede intervenir la estación de Soldado o la estación de Armado de ruedas y aproximación de Rayos, en este caso decidimos intervenir la estación de Soldado a partir de una celda robotizada que optimice el tiempo de la estación, ya que mientras un operario va ubicando las piezas en una matriz un robot puede ir soldando el marco de la bicicleta, generando así una ganancia enorme en tiempo.
+              Para la estación de Corte se establece que a partir de actuadores neumaticos y eléctrico podemos automatizar su función, acortando los tiempos de configuración y mejorando su desempeño. Para la estación de boca de pescado se determina que podemos usar actuadores neumaticos e hidraulicos para mejorar su desempeño, evitando así que la configuración de la estación sea netamente manual. Por último se puede intervenir la estación de Soldado o la estación de Armado de ruedas y aproximación de Rayos, en este caso decidimos intervenir la estación de Soldado a partir de una celda robotizada que optimice el tiempo de la estación, ya que mientras un operario va ubicando las piezas en una matriz un robot puede ir soldando el marco de la bicicleta, generando así una ganancia enorme en tiempo.
             </p>
           </div>
         </div>
@@ -483,93 +483,170 @@
       </div>      
     </div>
     <hr>
+    <br></br>
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 gestion-content">
+          <h2 class="gestion-title">Simulación del proceso automatizado:</h2>
+          <p class="gestion-text">            
+            Una vez realizado las intervenciones a las estaciones de Corte, Boca de pescado y Soldadura, se vuelve a simular con los nuevos valores obtenidos a partir de la simulación de la solución en automatización. Con esta información simulamos nuevamente el proceso de fabricación de las bicicletas en el software Siemens Plant Simulation, con el fin de validar que las intervenciones efectivamente lograrán su proposito.
+          </p>          
+        </div>
+      </div>
+    </div>    
+    <br></br>
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 gestion-content">
+          <h2 class="gestion-title">Análisis de Resultados de la automatización:</h2>
+          <div class="container wow fadeInUp">
+            <div class="row">        
+              <div class="col-md-6 gestion-content">
+                <h2 class="gestion-title">Bicicleta Tipo Playera</h2>
+                <p class="gestion-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis perspiciatis maiores suscipit. Rem incidunt accusantium id quibusdam, porro harum, nam architecto maiores nobis, explicabo dolore! Adipisci tenetur quos maxime inventore?
+                </p>                              
+              </div>
+              <div class="col-md-6 gestion-content" style="padding-top: inherit;">
+                <a href="files/resultados_playera.pdf" target="_blank"><img src="img/resultados_playera.jpg" alt="Bicicleta Tipo Playera" title=""/></a>
+                <a href="files/resultados_playera_completo.pdf" target="_blank"><img src="img/resultados_playera_completo.png" alt="Bicicleta Tipo Playera" title=""/></a>
+              </div>
+            </div>
+          </div>   
+          <hr/>
+        </div>
+      </div>
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-md-12 gestion-content">            
+            <div class="container wow fadeInUp">
+              <div class="row">        
+                <div class="col-md-6 gestion-content">
+                  <a href="files/resultados_ruta.pdf" target="_blank"><img src="img/resultados_ruta.jpg" alt="Bicicleta Tipo Playera" title=""/></a>
+                  <a href="files/resultados_ruta_completo.pdf" target="_blank"><img src="img/resultados_ruta_completo.png" alt="Bicicleta Tipo Playera" title=""/></a>
+                </div>
+                <div class="col-md-6 gestion-content">
+                  <h2 class="gestion-title">Bicicleta Tipo Ruta</h2>
+                  <p class="gestion-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum repellendus quia a. Saepe quo voluptate dicta doloremque aliquid dolores atque maiores minima officia harum odit, labore beatae nesciunt, corrupti temporibus.
+                  </p>                  
+                </div>
+              </div>
+            </div>             
+          </div>
+        </div> 
+      </div> 
+    </div>
+    <br>
+    <hr>
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12 gestion-content">
           <h2 class="gestion-title">KPIs del proceso automatizado:</h2>
           <p class="gestion-text">
-            Una vez implementados los procesos de mejora para las estaciones seleccionadas se simula el comportamiento de la cadena de producción y se obtienen los siguientes KPI’s:
+            Una vez implementados los procesos de mejora para las estaciones seleccionadas se obtienen los indicadores característicos más relevantes de desempeño para comparar el comportamiento de la cadena de producción con y sin automatización.
           </p>          
         </div>
       </div>
     </div>
-    <br>
-    <div class="row wow fadeInUp">
-      <div class="col-sm-3"></div> <!--Aux no borrar-->
-      <div class="col-sm-6 gestion-table" >
-        <table>
-          <thead>
-            <tr>
-              <th>ABREVIACIÓN</th><th>NOMBRE</th><th>VALOR</th><th>UNIDAD</th>
-            </tr>
-          </thead>
-          <!--
-          <tr>
-            <td>WIP<td>Trabajo en proceso</td><td>6073.4</td><td>min</td>
-          </tr>
-          -->
-          <tr>
-            <td>TD</td><td>Tiempo de trabajo disponible</td><td>480</td><td>min</td>
-          </tr>
-          <tr>
-            <td>D</td><td>Demanda</td><td>81</td><td>und</td>
-          </tr>
-          <tr>
-            <td>T</td><td>Takt Time</td><td>5.926</td><td>min/und</td>
-          </tr>
-          <tr>
-            <td>P</td><td>Producción diaría</td><td>81</td><td>und</td>
-          </tr>
-          <tr>
-            <td>Tc</td><td>Tiempo de ciclo</td><td>5.926</td><td>min/und</td>
-          </tr>
-          <tr>
-            <td>Q</td><td>Tamaño de lote</td><td>81</td><td>und</td>
-          </tr>
-          <tr>
-            <td>Tb</td><td>Tiempo de producción de un lote</td><td>480</td><td>min</td>
-          </tr>
-          <tr>
-            <td>Tp</td><td>Tiempo de producción por unidad</td><td>5.926</td><td>min</td>
-          </tr>
-          <tr>
-            <td>Rp</td><td>Tasa de producción</td><td>10.125</td><td>und/h</td>
-          </tr>
-          <tr>
-            <td>n</td><td>Número de lineas de producción</td><td>1</td><td>und</td>
-          </tr>
-          <tr>
-            <td>S</td><td>Número de turnos por periodo</td><td>5</td><td>turnos/semana</td>
-          </tr>
-          <tr>
-            <td>H</td><td>Número de horas por turno</td><td>8</td><td>h/turno</td>
-          </tr>
-          <tr>
-            <td>PC</td><td>Capacidad de producción</td><td>405</td><td>und/semana</td>
-          </tr>
-          <tr>
-            <td>U</td><td>Utilización</td><td>100</td><td>%</td>
-          </tr>
-          <tr>
-            <td>MLT</td><td>Manufacturing Lead Time </td><td>480</td><td>min</td>
-          </tr>
-          <tr>
-            <td>A</td><td>Disponibilidad</td><td>95</td><td>%</td>
-          </tr>
-          <tr>
-            <td>PE</td><td>Eficiencia de desempeño</td><td>81</td><td>%</td>
-          </tr>
-          <tr>
-            <td>Q</td><td>Tasa de Calidad</td><td>95</td><td>%</td>
-          </tr>
-          <tr>
-            <td>OEE</td><td>Eficacia General del Equipamiento</td><td>73</td><td>%</td>
-          </tr>              
-        </table>
-      </div>      
+    <br>    
+    <section>
+      <div class="container">
+        <div class="row wow fadeInUp">
+          <div class="col-sm-1"></div> <!--Aux no borrar-->
+          <div class="col-sm-10 gestion-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>ABREVIACIÓN</th><th>NOMBRE</th><th>VALOR</th><th>UNIDAD</th>
+                </tr>
+              </thead>
+              <!--
+              <tr>
+                <td>WIP<td>Trabajo en proceso</td><td>6073.4</td><td>min</td>
+              </tr>
+              -->
+              <tr>
+                <td>TD</td><td>Tiempo de trabajo disponible</td><td> Lorem. </td><td>min</td>
+              </tr>
+              <tr>
+                <td>D</td><td>Demanda</td><td> Lorem. </td><td>und</td>
+              </tr>
+              <tr>
+                <td>T</td><td>Takt Time</td><td> Lorem. </td><td>min/und</td>
+              </tr>
+              <tr>
+                <td>P</td><td>Producción diaría</td><td> Lorem. </td><td>und</td>
+              </tr>
+              <tr>
+                <td>Tc</td><td>Tiempo de ciclo</td><td>Lorem.</td><td>min/und</td>
+              </tr>
+              <tr>
+                <td>Q</td><td>Tamaño de lote</td><td>Lorem.</td><td>und</td>
+              </tr>
+              <tr>
+                <td>Tb</td><td>Tiempo de producción de un lote</td><td>Lorem.</td><td>min</td>
+              </tr>
+              <tr>
+                <td>Tp</td><td>Tiempo de producción por unidad</td><td>Lorem.</td><td>min</td>
+              </tr>
+              <tr>
+                <td>Rp</td><td>Tasa de producción</td><td>Lorem.</td><td>und/h</td>
+              </tr>
+              <tr>
+                <td>n</td><td>Número de lineas de producción</td><td>Lorem.</td><td>und</td>
+              </tr>
+              <tr>
+                <td>S</td><td>Número de turnos por periodo</td><td>Lorem.</td><td>turnos/semana</td>
+              </tr>
+              <tr>
+                <td>H</td><td>Número de horas por turno</td><td>Lorem.</td><td>h/turno</td>
+              </tr>
+              <tr>
+                <td>PC</td><td>Capacidad de producción</td><td>Lorem.</td><td>und/semana</td>
+              </tr>
+              <tr>
+                <td>U</td><td>Utilización</td><td>Lorem.</td><td>%</td>
+              </tr>
+              <tr>
+                <td>MLT</td><td>Manufacturing Lead Time </td><td>Lorem.</td><td>min</td>
+              </tr>
+              <tr>
+                <td>A</td><td>Disponibilidad</td><td>Lorem.</td><td>%</td>
+              </tr>
+              <tr>
+                <td>PE</td><td>Eficiencia de desempeño</td><td>Lorem.</td><td>%</td>
+              </tr>
+              <tr>
+                <td>Q</td><td>Tasa de Calidad</td><td>Lorem.</td><td>%</td>
+              </tr>
+              <tr>
+                <td>OEE</td><td>Eficacia General del Equipamiento</td><td>Lorem.</td><td>%</td>
+              </tr>              
+            </table>
+          </div> 
+          <div class="col-sm-1"></div> <!--Aux no borrar-->     
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 gestion-content">
+          <h2 class="gestion-title">Resultados de la automatización:</h2>
+          <p class="gestion-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere, turpis nec ultricies sollicitudin, diam lacus rutrum enim, at sollicitudin sem ipsum sed felis. Suspendisse potenti. Sed iaculis arcu leo, non tincidunt ipsum sagittis ut. Quisque eget mauris magna. Vestibulum hendrerit lobortis felis lobortis gravida. Quisque eleifend vestibulum ornare. In tempor, lacus quis pretium dignissim, lectus libero condimentum lectus, id auctor nibh augue ut odio.
+
+            Donec eget tincidunt urna. Praesent egestas sem ac condimentum varius. Vivamus ac posuere purus. Nunc sed quam sagittis, malesuada urna non, consectetur eros. Phasellus suscipit sit amet tortor placerat blandit. Curabitur rutrum venenatis aliquet. Maecenas sodales mauris in ornare aliquam. Donec quis iaculis neque. Pellentesque quis augue at risus egestas aliquam eu ut metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin convallis massa sit amet lectus accumsan volutpat. Maecenas venenatis dolor eget enim pretium sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis ipsum ut mi consectetur luctus. Nulla rutrum nisi pellentesque, tempor quam sed, laoreet neque.
+            
+            Mauris posuere sagittis rutrum. Nulla mattis ex sit amet magna congue, ac ornare urna eleifend. Etiam ultricies diam id est fermentum fringilla. Proin lorem tortor, accumsan ac blandit non, tristique sit amet tellus. Curabitur ut leo ut lectus molestie tincidunt. Ut tincidunt eget tellus sit amet luctus. Proin id imperdiet ligula. Maecenas gravida arcu et est suscipit, vehicula luctus nisl maximus. Ut arcu turpis, ultricies vulputate hendrerit ac, gravida quis neque.
+            
+            Vivamus gravida placerat augue non varius. Mauris ultrices augue vitae diam vestibulum, non pharetra ligula vestibulum. Ut id gravida diam. Vivamus turpis massa, vehicula sed mauris vitae, vulputate congue urna. Phasellus non purus velit. Nunc auctor metus eu lacinia blandit. Sed sodales lacinia ante sed auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent lobortis fermentum malesuada. Sed elementum facilisis neque, id euismod erat vehicula vel. Phasellus sed metus quis felis pellentesque gravida a ac lectus. Aenean quis nunc metus. 
+          </p>       
+        </div>
+      </div>
     </div>
-  </div>
-  <hr>
+    <br> 
   </section>
 
   <!--==========================
@@ -588,94 +665,26 @@
     <div class="container wow fadeInUp">
       <div class="row">        
         <div class="col-md-6 industria-content">
-          <h2 class="industria-title">Herramientas de Simulación Utiliazdas</h2>
+          <h2 class="industria-title">mi titulo</h2>
           <p class="industria-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
             in reprehenderit in voluptate
-          </p>
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
+          </p>                  
         </div>
         <div class="col-md-6 industria-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
+          <img src="img/cloud.png" alt="description img" title="title img"/>        
         </div>
       </div>
-    </div>     
-
-    <hr/>
-
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-6 industria-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
-        </div>        
-        <div class="col-md-6 industria-content">
-          <h2 class="industria-title">Uso de Igniton para la comunicación entre programas</h2>
-          <p class="industria-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
-          </p>
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
-        </div>        
-      </div>
     </div>
-
-    <hr/>
-
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-6 industria-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
-        </div>        
-        <div class="col-md-6 industria-content">
-          <h2 class="industria-title">Uso de IBM Cloud para interconectividad entre dispositivos</h2>
-          <p class="industria-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
-          </p>
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
-        </div>        
-      </div>
-    </div>
-
-    <hr/>
-
+    <hr>
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12 industria-content">
-          <h2 class="industria-title">Diagrama de Red</h2>
+          <h2 class="industria-title">Arquitectura de red</h2>
           <p class="industria-text">
             A continuación encontrará el diagrama de red que relaciona el software utilizado con sus protocolos de comunicación
           </p>
-          <!--Colocar Imagen diagrama de Red-->
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="industria-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
+          <img src="img/arquitectura_red_proyecto.svg">          
         </div>
       </div>
     </div>
