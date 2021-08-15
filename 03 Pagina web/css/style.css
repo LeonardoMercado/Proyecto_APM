@@ -575,6 +575,8 @@ table {
   background-color: white;
   text-align: center;
   border-collapse: collapse;
+  color: black;
+  border: 2px solid black;
 }
 th, td{  
   padding: 20px;
