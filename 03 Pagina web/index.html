@@ -1846,16 +1846,14 @@
           </div>
         </div>
         <div class="col-sm-6 celda-content">
-          <iframe width="550" height="315" src="https://www.youtube.com/embed/vhVFbos8X18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="545" height="315" src="https://www.youtube.com/embed/Jg_gNeSpo2Q" title="video celda de soldadura APM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-sm-6 celda-content">
           <p class="celda-text">
             Todo el desarrollo de la celda robotizada se puede hallar en nuestro repositorio de <a href="https://github.com/LeonardoMercado/Proyecto_APM/tree/celda_robotizada" target="_blank">Github</a>, en el cual se puede encontrar paso a paso el desarrollo de la misma.
-          </p>
+          </p>          
         </div>
       </div>
-
-
   </section>
 
   <!--==========================
@@ -1958,57 +1956,40 @@
         <div class="col-md-12">
           <h3 class="section-title">Controladores Industriales</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+          <p class="section-description">Explicación de la lógica de control, Grafcet de estación y Ladder de control general</p>
         </div>
       </div>
     </div>
     <div class="container wow fadeInUp">
       <div class="row">        
-        <div class="col-md-6 plc-content">
-          <h2 class="plc-title">Control del corte boca de pescado</h2>
+        <div class="col-md-6 plc-content">          
           <p class="plc-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
-          </p>
-          <p class="plc-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="plc-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
+            Para el control de nuestra solución en automatización se planifico que cada estación a intervenir contara con su controlador lógico programable (RTU) y que se pudiera comunicar a través de comunicación MQTT con un controlador general de la cadena de producción (MTU). Para esto se desarrollan los Grafcets de control para la estación de Boca de Pescado y Corte. Por ultimo se genera un Ladder en forma de Grafcet para el control general del proceso de producción.
+          </p>                    
         </div>
         <div class="col-md-6 plc-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
+          <img src="img/plc-img.jpg" alt="description img" title="title img"/>        
         </div>
       </div>
-    </div>     
-
+    </div>  
     <hr/>
-
     <div class="container wow fadeInUp">
       <div class="row">        
-        <div class="col-md-6 plc-content">
-          <h2 class="plc-title">Control del proceso de corte de tubos</h2>
-          <p class="plc-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
-          </p>
-          <p class="plc-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="plc-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
-        </div>
-        <div class="col-md-6 plc-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
-        </div>
+        <div class="col-md-12 plc-content">
+          <h2 class="plc-title">Grafcet nivel 1 - Control del proceso de Corte</h2>
+          <img src="img/grafcet-corte.svg" alt="Grafcet nivel 2 corte">
+        </div>        
       </div>
-    </div>       
+    </div>
+    <hr/>
+    <div class="container wow fadeInUp">
+      <div class="row">        
+        <div class="col-md-12 plc-content">
+          <h2 class="plc-title">Grafcet nivel 2 - Control del proceso de Boca de Pescado</h2>
+          <img src="img/grafcet-boca-pescado.svg" alt="Grafcet nivel 2 boca de pescado">
+        </div>        
+      </div>
+    </div>
 
   </section>
 
