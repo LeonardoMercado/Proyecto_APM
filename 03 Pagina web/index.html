@@ -669,7 +669,7 @@
           </p>                  
         </div>
         <div class="col-md-6 industria-content">
-          <img src="img/cloud.png" alt="cloud img" />        
+          <img src="img/cloud.png" alt="cloud img" id="cloud" />        
         </div>
       </div>
     </div>
@@ -2139,83 +2139,52 @@
         <div class="col-md-12">
           <h3 class="section-title">SCADA</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Operación remota de las celdas de manufactura usando la nube, y HMI</p>
+          <p class="section-description">Control, supervisión, alarmas, historicos y KPIs</p>
         </div>
       </div>
     </div>
     <div class="container wow fadeInUp">
       <div class="row">        
         <div class="col-md-6 scada-content">
-          <h2 class="scada-title">We provide great services and ideass</h2>
+          <h2 class="scada-title">Desarrollo sistema de supervisión, control y adquisición de datos</h2>
           <p class="scada-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
-          </p>
+            Como mencionamos en la <a href="#cloud">arquitectura de red</a> desarrollada en este proyecto, contamos con una instancia virtual en los servidores de IBM, en esta instancia virtual se instalo el software de Ignition para poder tener una base sobre la cual instalar modulos de comunicación MQTT, esta instancia virtual hace las veces de Broker MQTT on Cloud y de MTU, es decir, las estaciones automatizadas cuentan con su controlador lógico programable, su HMI y estas le reportan al SCADA nube en el cual se centraliza el control, la supervisión, las alarmas, los historicos de los equipos, y los KPIs del proceso.
+          </p>  
           <p class="scada-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="scada-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
+            En el siguiente <a href="http://52.116.196.195:8088/data/perspective/client/proyecto_APM" target="_blank">link</a> se puede acceder a nuestro SCADA nube en el cual se siguieron <a href="https://repositorio.utb.edu.co/handle/20.500.12585/536" target="_blank">recomendaciones</a> para el diseño de HMI de alto desempeño, donde mostramos variables de proceso importantes para el control, supervisión, alarmas, historicos y KPIs, tanto su valor puntual en un instante de tiempo, como la tendencia de la variable, esto apoyo de un intervalo aceptable para las mismas, el cual se muestra de manera gráfica y de fácil decodificación para cualquier persona, con colores adecuados para no cansar la vista humana. 
+          </p>                  
         </div>
         <div class="col-md-6 scada-content">
-          <img src="img/valvula.jpg" alt="description img" title="title img"/>        
+          <img src="img/scada-presentacion.png" alt="Scada"/>        
         </div>
       </div>
-    </div>     
-
+    </div>  
     <hr/>
-
     <div class="container wow fadeInUp">
       <div class="row">
-        <div class="col-md-12 scada-content">
-          <h2 class="scada-title">We provide great services and ideass</h2>
+        <div class="col-md-6 scada-content">
+          <h2>Estación de Corte</h2>
+          <img src="img/hmi-corte.jpeg" alt="HMI corte"/>        
+        </div>        
+        <div class="col-md-6 scada-content">
+          <h2 class="scada-title">HMI de las estaciones automatizadas</h2>
           <p class="scada-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum.
+            Para la estación de corte, boca de pescado y soldadura se  diseño e implemento una HMI de fácil entendimiento, donde mostramos los mímicos de los componentes que intervienen en la operación y las principales variables que intervienen en el proceso de transformación de la materia prima, al igual de poseer elementos de seguridad y funcionamiento de cada una de las celdas.
           </p>
-          <p class="scada-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="scada-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-        </div>
+        </div>        
       </div>
     </div>
-
-    <hr/>
-
+    <br></br>
     <div class="container wow fadeInUp">
-      <div class="row">
+      <div class="row">             
         <div class="col-md-6 scada-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
-        </div>        
+          <h2>Estación de Soldadura</h2>
+          <img src="img/hmi-soldadura.jpeg" alt="HMI boca pescado"/>
+        </div>  
         <div class="col-md-6 scada-content">
-          <h2 class="scada-title">We provide great services and ideass</h2>
-          <p class="scada-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
-          </p>
-          <p class="scada-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="scada-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
-        </div>        
+          <h2>Estación de Boca de pescado</h2>
+          <img src="img/hmi-boca-pescado.jpeg" alt="HMI boca pescado"/>        
+        </div>         
       </div>
     </div>
 
@@ -2335,15 +2304,15 @@
             <h3>Nelson Daniel Cruz Camelo</h3>
             <span>Estudiante Ingeniería Mecatrónica</span>
               <div class="social" style="font-size: 28px;">
-                <a href="mailto:ndcruzc@unal.edu.co"target="_blank"><i class="fa fa-envelope"></i></a>
-                <a href="https://github.com/ndcruzc89"target="_blank"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/juan-sebastian-pina-jaramillo-90863a219/"target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:ndcruzc@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/ndcruzc89" target="_blank"><i class="fa fa-github"></i></a>
+                <!--<a href="https://www.linkedin.com/in/juan-sebastian-pina-jaramillo-90863a219/"target="_blank"><i class="fa fa-linkedin-square"></i></a>-->
               </div>
           </div>
         </div>
         <div class="col-md-9">
           <div class="quote">
-            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+            Interés en las tecnologías que integran robótica, control, diseño asistido por computador, programación de software y microcontroladores.
           </div>
         </div>
       </div>
@@ -2351,7 +2320,7 @@
       <div class="row">
         <div class="col-md-9">
           <div class="quote">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae.
+            Estudiante de ultimo semestre de ingeniería mecatrónica, apasionado por el mundo de la innovación y el desarrollo, con amplia experiencia en desarrollo de proyectos de ingeniería. Actualmente desarrollo aplicaciones para web y moviles Android.
           </div>
         </div>
         <div class="col-md-3">
@@ -2360,9 +2329,9 @@
             <h3>Leonardo Fabio Mercado Benítez</h3>
             <span>Estudiante Ingeniería Mecatrónica</span>
               <div class="social" style="font-size: 28px;">
-                <a href="mailto:lfmercadobe@unal.edu.co"target="_blank"><i class="fa fa-envelope"></i></a>
-                <a href="https://github.com/LeonardoMercado"><i class="fa fa-github"target="_blank"></i></a>
-                <a href="https://www.linkedin.com/in/leonardofabiomercadobenitez/"><i class="fa fa-linkedin-square"target="_blank"></i></a>
+                <a href="mailto:lfmercadobe@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/LeonardoMercado" target="_blank"><i class="fa fa-github"target="_blank"></i></a>
+                <a href="https://www.linkedin.com/in/leonardofabiomercadobenitez/" target="_blank"><i class="fa fa-linkedin-square"target="_blank"></i></a>
               </div>
           </div>
         </div>
@@ -2375,9 +2344,9 @@
             <h3>Juan Sebastian Piña Jaramillo</h3>
             <span>Estudiante Ingeniería Mecatrónica</span>
               <div class="social" style="font-size: 28px;">
-                <a href="mailto:jspinaj@unal.edu.co"target="_blank"><i class="fa fa-envelope"></i></a>
-                <a href="https://github.com/jspinaj"target="_blank"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/juan-sebastian-pina-jaramillo-90863a219/"target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:jspinaj@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/jspinaj" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/juan-sebastian-pina-jaramillo-90863a219/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
               </div>
           </div>
         </div>
@@ -2401,9 +2370,9 @@
             <h3>Michael Alexander Rodriguez Urbina</h3>
             <span>Estudiante Ingeniería Mecatrónica</span>
               <div class="social" style="font-size: 28px;">
-                <a href="mailto:miarodriguezur@unal.edu.co"target="_blank"><i class="fa fa-envelope"></i></a>
-                <a href="https://github.com/mirodriguezur"target="_blank"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/juan-sebastian-pina-jaramillo-90863a219/"target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:miarodriguezur@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/mirodriguezur" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/miarodriguezur/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
               </div>
           </div>
         </div>
@@ -2416,9 +2385,9 @@
             <h3>Manuel Alejandro Rojas Cubillos</h3>
             <span>Estudiante Ingeniería Mecatrónica</span>
               <div class="social" style="font-size: 28px;">
-                <a href="mailto:maarojascu@unal.edu.co"target="_blank"><i class="fa fa-envelope"></i></a>
-                <a href="https://github.com/maarojascu"target="_blank"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/manuel-alejandro-rojas-cubillos-841584139/"target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:maarojascu@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/maarojascu" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/manuel-alejandro-rojas-cubillos-841584139/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
               </div>
           </div>
         </div>
@@ -2522,6 +2491,7 @@
         <div class="col-md-2"></div>
       </div>
     </div>
+  </section>
   </section>
 
   <!--==========================
