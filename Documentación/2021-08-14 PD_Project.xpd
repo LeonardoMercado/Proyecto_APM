@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <FestoCalcTool:SystemTool xmlns:FestoCalcTool="http://www.festo.simulation.com/FestoCalcTool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.festo.simulation.com/FestoCalcTool FestoCalcTool.xsd"> 
+<FestoCalcTool:SystemToolGroup TypeOfGroup="System">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool"/>
+</FestoCalcTool:SystemToolGroup>
+<FestoCalcTool:SystemInformation>
+<SystemInformationGroup xmlns="http://www.festo.simulation.com/FestoCalcTool" TypeOfGroup="Creator" Id="1">
+<Parameter/>
+</SystemInformationGroup>
+</FestoCalcTool:SystemInformation>
+<FestoCalcTool:ProgramInformation>
+<ProgramInformationGroup xmlns="http://www.festo.simulation.com/FestoCalcTool" Id="1" TypeOfGroup="Settings">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sKeyWord">PositioningDrives</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sAction">Planning</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectVersionInfo">2021-8-16</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProgramVersionInfo">2.3.34</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductModelVersionInfo">CDLL 2.3.33</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sDataVersionInfo">20.7.1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectStructureVersionInfo">19-03-01</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sApplication">
+</Parameter>
+</ProgramInformationGroup>
+<ProgramInformationGroup xmlns="http://www.festo.simulation.com/FestoCalcTool" Id="2" TypeOfGroup="Settings">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerId">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerDepartment">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerFax">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerEditor">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerEmail">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerTelephone">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerAddress1">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerAddress2">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCustomerAddress3">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectId">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectName1">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectName2">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectEditor">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectEmail">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sFestoAddress1">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sFestoAddress2">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProjectRemarks">
+</Parameter>
+</ProgramInformationGroup>
+<ProgramInformationGroup xmlns="http://www.festo.simulation.com/FestoCalcTool" Id="3" TypeOfGroup="Settings">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff0">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff1">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff2">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff3">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff4">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff5">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff6">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff7">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff8">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff9">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iColumnsOnOff10">1</Parameter>
+</ProgramInformationGroup>
+<ProgramInformationGroup xmlns="http://www.festo.simulation.com/FestoCalcTool" Id="4" TypeOfGroup="Settings">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductStateType-0">COMPLETE</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductStateType-1">INDIVIDUAL</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductStateType-2">OMS</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sPartsListView">OMS</Parameter>
+</ProgramInformationGroup>
+</FestoCalcTool:ProgramInformation>
+<FestoCalcTool:GlobalParameter>
+<GlobalParameterGroup xmlns="http://www.festo.simulation.com/FestoCalcTool" TypeOfGroup="Environment">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dTemperatureAmbient">298.15</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDutyRatio">0.25</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dPausetime">0.2</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dPressure">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iNumberOfCycles">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iNumberOfShifts">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iTimeUnit">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dTotalTime">5</Parameter>
+</GlobalParameterGroup>
+</FestoCalcTool:GlobalParameter>
+<SystemStructure xmlns="http://www.festo.simulation.com/FestoCalcTool" Id="1">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bActive">True</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sMotionProfileName">Detailed</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sApplication">Linear</Parameter>
+<SystemBlock>
+<SystemGroup TypeOfGroup="Message" Id="1">
+<Parameter/>
+</SystemGroup>
+<Component TypeOfComponent="Drive" Id="1">
+<ComponentGroup TypeOfGroup="Guide">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dWithCalculationGuide">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bWithCalculationLateralAcc">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDirectionMassX">0.125</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDirectionMassY">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDirectionMassZ">0.225</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDirectionForceX">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDirectionForceY">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDirectionForceZ">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dForceX">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dForceY">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dForceZ">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bUseGuide">True</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sBrakeType">WITHOUT</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sGuideTechnologyType-0">ROLLER</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sGuideTechnologyType-1">CIRCULATINGBALL</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Info">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sAxisConstructionType-0">Cantilever</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bWithCalculationGantryAsYoke">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sAxisTechnologyType-0">TOOTHBELT</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sAxisTechnologyType-1">SPINDLEBALLSCREW</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sAxisTechnologyType-2">SPINDLELEADSCREW</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-0">DGEA</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-1">EGSC</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-2">EGSL</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-3">ELCC</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-4">EPCO</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-5">ESBF</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dRepetitionAccuracy">0.0001</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbNr">1843</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bExtern">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sOrderCode">ELCC-TB-KF-110-1200-0H-P0-CR</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iPartNo">8082415</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAxisSizeMode">optimised</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Parameter">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dStroke">1.2</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dStartPosition">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dMaxMovedMass">30</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAssemblyPositionAxial">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAssemblyPositionRadial">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iLifeDisplacement">5000000</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iLifeCycle">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iLifeTime">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sDomainProps">Std</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Result" Id="1">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularSpeed">43.6338</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularAcceleration">273.116</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularDeceleration">-273.116</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeed">1.5</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAcceleration">9.3889</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDeceleration">-9.3889</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dJerkMax">818.335</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Result" Id="2">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularSpeed">-60.7876</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularAcceleration">-280.404</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularDeceleration">280.404</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeed">-2.0897</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAcceleration">-9.63946</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDeceleration">9.63946</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dJerkMax">396.205</Parameter>
+</ComponentGroup>
+</Component>
+<Component TypeOfComponent="MountingKit" Id="1">
+<ComponentGroup TypeOfGroup="Info">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbNr">512</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bExtern">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sOrderCode">EAMM-A-L95-80G-G2</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iPartNo">3660191</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sMountingKit-0">AXIAL</Parameter>
+</ComponentGroup>
+</Component>
+<Component TypeOfComponent="Motor" Id="1">
+<ComponentGroup TypeOfGroup="Info">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-0">EMCA-EC</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-1">EMMB-AS</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-2">EMME-AS</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-3">EMMS-AS</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-4">EMMT-AS</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bUseFeatherKey">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbNr">319</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bExtern">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sOrderCode">EMMT-AS-80-H-HS-Rx</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iPartNo">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sMotorTechnologyType-0">SERVOAC</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sMotorTechnologyType-1">SERVOEC</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Parameter">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dTemperature">1000.00000</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Result" Id="1">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularSpeed">218.169</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularAcceleration">1365.58</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularDeceleration">-1365.58</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dJerkMax">119024</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Result" Id="2">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularSpeed">-303.938</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularAcceleration">-1402.02</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAngularDeceleration">1402.02</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dJerkMax">57626.5</Parameter>
+</ComponentGroup>
+</Component>
+<Component TypeOfComponent="Coupling" Id="1">
+<ComponentGroup TypeOfGroup="Info">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbNr">353</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bExtern">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sOrderCode">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iPartNo">-1</Parameter>
+</ComponentGroup>
+</Component>
+<Component TypeOfComponent="Gear" Id="1">
+<ComponentGroup TypeOfGroup="Info">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbNr">137</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bExtern">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sOrderCode">EMGA-80-P-G5-EAS-80</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iPartNo">2297691</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sGearRatiosDefault-0">GEARRATIOIS1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sGearRatiosDefault-1">GEARSDEFAULT</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dGearRatioACST-0">3</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dGearRatioACST-1">5</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dGearRatioEC-0">5</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dGearRatioEC-1">20</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Parameter">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dRatio">
+</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bIsAnyRatio">False</Parameter>
+</ComponentGroup>
+</Component>
+<Component TypeOfComponent="Controller" Id="1">
+<ComponentGroup TypeOfGroup="Info">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-0">CMMO-ST</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-1">CMMP-AS</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-2">CMMS-ST</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-3">CMMT-AS</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-4">CMMT-ST</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sProductFamily-5">EMCA-EC</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbNr">44</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="bExtern">False</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sOrderCode">CMMT-AS-C5-11A-P3-...</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iPartNo">
+</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Parameter">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dVoltage">400</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iMode">1</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dNoOfPhasesAC-0">1PHASE_AC</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dNoOfPhasesAC-1">3PHASE_AC</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dServoVoltageValue-0">230</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dServoVoltageValue-1">400</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dStepperVoltageValue-0">24</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dStepperVoltageValue-1">48</Parameter>
+</ComponentGroup>
+</Component>
+<Component TypeOfComponent="CableMotor" Id="1">
+<ComponentGroup TypeOfGroup="Info">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbNr">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iDbSap">0</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Port">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sComponentType">Drive</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="iComponentId">1</Parameter>
+</ComponentGroup>
+<ComponentGroup TypeOfGroup="Parameter">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dLength">10</Parameter>
+</ComponentGroup>
+</Component>
+</SystemBlock>
+<ControlBlock>
+<Control TypeOfControl="ControllerPosition" Id="1">
+<ControlGroup TypeOfGroup="Parameter">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sMode">A</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dInputValuePosition">1.2</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dTargetPosition">1.2</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dMass">30</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dForce">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dTotalTime">0.966666666666667</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeedMax">1.5</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeedDisplacement">0.95</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeedTime">0.633333333333333</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAccelerationMax">9.38890373537727</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDecelerationMax">9.38890373537727</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dPauseTime">0.2</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDutyRatio">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dLateralAccelerationY">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dLateralAccelerationZ">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sSpeedCondition">eq</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sAccelerationCondition">eq</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sDecelerationCondition">eq</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCondition">eq</Parameter>
+</ControlGroup>
+</Control>
+<Control TypeOfControl="ControllerPosition" Id="2">
+<ControlGroup TypeOfGroup="Parameter">
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sMode">A</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dInputValuePosition">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dTargetPosition">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dMass">30</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dForce">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dTotalTime">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeedMax">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeedDisplacement">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dSpeedTime">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dAccelerationMax">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDecelerationMax">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dPauseTime">0.2</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dDutyRatio">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dLateralAccelerationY">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="dLateralAccelerationZ">0</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sSpeedCondition">le</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sAccelerationCondition">eq</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sDecelerationCondition">eq</Parameter>
+<Parameter xmlns="http://www.festo.simulation.com/FestoCalcTool" Name="sCondition">eq</Parameter>
+</ControlGroup>
+</Control>
+</ControlBlock>
+<ResultBlock/>
+</SystemStructure>
+</FestoCalcTool:SystemTool>
