@@ -2109,22 +2109,21 @@
     <div class="container wow fadeInUp">
       <div class="row">        
         <div class="col-md-6 actuadores-content">
-          <h2 class="actuadores-title">We provide great services and ideass</h2>
+          <h2 class="actuadores-title">Formulación del problema</h2>
           <p class="actuadores-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
+            Se requiere seleccionar un conjunto de sensores y actuadores que permitan llevar a cabo el proceso de corte de tubos y boca de pescado en las estaciones
+            Automatizadas. Una selección correcta de componentes es necesaria para lograr realizar la implementación física de estas estaciones. Las fuerzas generadas por el
+            actuador deben ser mayores a las fuerzas necesarias para realizar los procesos de sujeción, corte y movimiento.
           </p>
           <p class="actuadores-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="actuadores-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>          
+            Para implementar estas dos estaciones se requiere seleccionar diferentes tipos de sensores y actuadores. La estación de boca de pescado requiere la selección de 3 cilindros
+            para la sujeción y movimiento de los tubos. Adicionalmente requiere seleccionar la prensa hidraulica que realizará el trabajo de cortar el tubo que entra en la matriz de corte.
+            Por otro lado la estación de corte requiere la selección de cilindros neumaticos para sujetar el tubo y bajar el disco de corte de la tronzadora. Adicionalmente se necesita un actuador lineal que permita desplazar el tubo 
+            dependiendo de la longitud del tubo que se quiere obtener.
+          </p> 
         </div>
         <div class="col-md-6 plc-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
+          <img src="img/valvula.jpg" alt="description img" title="title img"/>        
         </div>
       </div>
     </div>     
@@ -2134,24 +2133,21 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12 actuadores-content">
-          <h2 class="actuadores-title">We provide great services and ideass</h2>
+          <h2 class="actuadores-title">Procedimiento de Selección de Componentes</h2>
           <p class="actuadores-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum.
+            Para la selección de los actuadores neumaticos o hidraulicos se empezo realizando diagramas de cuerpo libre de los actuadores, junto con los mecanismos y objetos que estos
+            influian. Esto con el fin de calcular las fuerzas de maquina que tiene que ejercer el actuador sobre el sistema. Una vez encontrada esta fuerza se encuentra la fuerza de cilindro,
+            la cual depende de dos constantes lambda y mu las cuales dependen de la velocidad del cilindro. Con la fuerza de cilindro calculada se puede encontrar el área mínima del cilindro.
+            Utilizando un catálogo se selecciona un diametro normalizado del Embolo y del Vastago tal que el área del cindro sea menor que el Area mínima. Se selecciona una carrera normalizada del cilindro para caracterizar el actuador
+            Una vez seleccionadas estas medidas se comprueba que las fuerzas de avance y retroceso sean menores a las fuerzas de cilindro en dicha etapa. Para la aplicación actual se requieren cilíndros de un vastago, por lo que la fuerza de avance es 
+            diferente a la fuerza de retroceso. Una vez comprobado que esta condición se cumple se selecciona una referencia de cilíndro que tiene el diametro de vastago, diametro de émbolo y recorrido seleccionado.
           </p>
           <p class="actuadores-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="actuadores-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
+            Con los pasos anteriores se seleccionan los cilíndros neumaticos e hdraulicos. Para seleccionar las válvulas y el compresor que se usará para controlar el cilindro se debe calcular el consumo de aire del cilíndro, el consumo de aire
+            en n ciclos del cilindro y el consumo en condiciones normales. Con el área del vastago y la velocidad requerida se puede calcular el caudal del cilindro. Con esta información se puede calcular la velocidad del fluido en la tubería y el numero de 
+            Reynolds en la tubería(con lo que se puede saber si el regimen del fluido es turbulento o laminar. Por úlimo, con información sobre el fluido usado y definiendo la perdida de presión causada por la válvula se puede encontrar el coeficiente de válvula kv.
+            Con este parámetro se selecciona la valvula apropiada para controlar el actuador, cuyo coeficiente de válvula debe ser mayor o igual al calculado. Finalmente a partir de la selección de cilindros se seleccionan otros componentes importantes en el circuito 
+            neumatico como filtros, secador de aire, unidades de mantenimiento y sensores. En el siguiente <a href="files/Calculos Estacion Boca de Pescado.pdf" target="_blank">enlace</a>  se pueden descargar las memorias de cálculo de los tres cilindros neumaticos de la estación boca de pescado, junto con sus válvulas.
           </p>
         </div>
       </div>
@@ -2162,21 +2158,15 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-6 actuadores-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
+          <img src="img/Circuito.PNG" alt="description img" title="title img"/>        
         </div>        
         <div class="col-md-6 actuadores-content">
-          <h2 class="actuadores-title">We provide great services and ideass</h2>
+          <h2 class="actuadores-title">Diagramas de Circuitos</h2>
           <p class="actuadores-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
-          </p>
-          <p class="actuadores-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="actuadores-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
+            Se realizaron los diagramas eléctricos de cada una de las dos estaciones a automatizar con el fin de presentar los componentes eléctricos a usar en la implentación de la estación, y como estos se conectan entre si.
+            Estos diagramas incluyen PLC's, dispositivos de protección eléctrica, pulsadores de encendido y parada, pilotos (externos al HMI), fuentes de tensión, contactores, sensores magnéticos e inductivos y drivers de motor.
+            No se incluye el detalle sobre la conexión del compresor. En el siguiente enlace se encuentra el diagrama eléctrico de la estación de <a href="files/cortadora_tubos_electrico.pdf" target="_blank">corte boca de pescado</a>. 
+            Por úlimo, en el siguiente enlace se encuentra el diagrama eléctrico de la estación de <a href="files/cortadora_tubos_electrico.pdf" target="_blank">corte de tubos</a>.
           </p>          
         </div>        
       </div>
@@ -2215,7 +2205,7 @@
           </p>          
         </div>
         <div class="col-md-6 scada-content">
-          <img src="img/about-img.jpg" alt="description img" title="title img"/>        
+          <img src="img/valvula.jpg" alt="description img" title="title img"/>        
         </div>
       </div>
     </div>     
@@ -2437,7 +2427,8 @@
         </div>
         <div class="col-md-9">
           <div class="quote">
-            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              Mi mayor interes academico actualmente es la rama del control y la programación. Me gusta aprender de diferentes tecnologías
+              y entender como diferentes ramas de la ingeniería se integran en los productos que dia a dia consumimos.
           </div>
         </div>
       </div>
@@ -2445,7 +2436,7 @@
       <div class="row">
         <div class="col-md-9">
           <div class="quote">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae.
+            Estudiante de ingeniería mecatrónica, apasionado por la programación y el diseño, con experiencia en programación de microcontroladores y montajes eléctricos.
           </div>
         </div>
         <div class="col-md-3">
@@ -2477,7 +2468,7 @@
         </div>
         <div class="col-md-9">
           <div class="quote">
-            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+            Ingeniero Mecatrónico (IX semestre en curso) con un fuerte enfoque hacia los procesos de automatización, procesos de tecnificación, robotización y programación. Soy hábil en diseño CAD, dibujo técnico, planos mecánicos, técnicas de control, máquinas y mecanismos, ingeniería de software y microelectrónica.
           </div>
         </div>
       </div>
