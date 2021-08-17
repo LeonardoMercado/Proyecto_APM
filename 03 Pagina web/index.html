@@ -1964,7 +1964,7 @@
       <div class="row">        
         <div class="col-md-6 plc-content">          
           <p class="plc-text">
-            Para el control de nuestra solución en automatización se planifico que cada estación a intervenir contara con su controlador lógico programable (RTU) y que se pudiera comunicar a través de comunicación MQTT con un controlador general de la cadena de producción (MTU). Para esto se desarrollan los Grafcets de control para la estación de Boca de Pescado y Corte. Por ultimo se genera un Ladder en forma de Grafcet para el control general del proceso de producción.
+            Para el control de nuestra solución en automatización se planifico que cada estación a intervenir contara con su controlador lógico programable (RTU) y que se pudiera comunicar a través de comunicación MQTT con un controlador general de la cadena de producción (MTU). Para esto se desarrollan los Grafcets de control para la estación de Boca de Pescado y Corte. Por ultimo se genera un Ladder en forma de Grafcet para el control general del proceso de producción. Por medio de Studio 5000 se implementaron los Grafcet en un controlador virtual. A continuación se muestran los GRAFCET Técnologico y Funcional implementado para las estaciones de corte y boca de pescado.
           </p>                    
         </div>
         <div class="col-md-6 plc-content">
@@ -1974,23 +1974,123 @@
     </div>  
     <hr/>
     <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Corte boca de Pescado</h3>
+          <div class="section-title-divider"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container wow fadeInUp">
       <div class="row">        
-        <div class="col-md-12 plc-content">
-          <h2 class="plc-title">Grafcet nivel 1 - Control del proceso de Corte</h2>
-          <img src="img/grafcet-corte.svg" alt="Grafcet nivel 2 corte">
-        </div>        
+        <div class="col-md-6 plc-content">          
+          <p class="plc-text">
+            La estación de corte de boca de pescado se encarga de mecanizar las puntas de los tubos que se van a unir mediante soldadura. 
+            Esta estación tiene un sujetador que se puede abrir y cerrar con un cilíndro neumatico B el cual puede moverse longitudinalmente por el tubo por
+            medio de otro cilíndro A. Los cilíndros neumaticos A y B se encargan de posicionar la punta del tubo en una matriz de corte. 
+            Una vez el tubo está posicionado, un cilindro hidráulico de una prensa es el encargado de cortar la punta del tubo. Finalmente los cilíndros A y B retiran el tubo
+            de la matriz para que el operador retire el tubo y ubique un nuevo tubo. Por medio de los sensores magnéticos S1, S2, S3, S4, S5, S6 se detecta cuando los cilíndros llegan
+            al final de carrera. Se cuenta Adicionalmente con un sensor de presencia auscencia S7 encargado de detectar si el tubo está posicionado correctamente en la mesa antes 
+            de iniciar el proceso de corte. El operador controla el inicio del proceso de corte por medio de un pulsador de Start. Adicionalmente la celda dispone de un botón
+            de parada de emergencia para desconectar eléctricamente los actuadores.
+          </p>
+          <p class="plc-text">
+            Adicional a los sensores y actuadores con los que cuenta la celda, se incluye en la lógica del GRAFCET tres indicadores o pilotos: Uno de los indicadores se encarga 
+            de advertir al operador que la estación está lista para cortar un nuevo tubo(está en la posición inicial). Otro indicador es una alarma que se activa cuando el operador oprimió el
+            botón de inicio sin ubicar correctamente el tubo, o cuando se oprime la parada de emergencia. Por último se cuenta con un contador de piezas que hán sido procesadas, y un botón de RST 
+            para reiniciar el contador.
+          </p>
+          <p class="plc-text">
+            A continuación se muestra el diagrama Grafcet tecnologico y funcional implementado en las estaciones. Puede consultar descargar la implementación del Grafcet en Studio 5000 en el siguiente <a href="files/Grafcet Boca de Pescado.pdf" target="_blank">enlace</a> 
+          </p>
+        </div>
+        <div class="col-md-6 plc-content">
+          <img src="img/estacion_boca_pescado_actuadores.jpeg" alt="description img" title="title img"/>       
+        </div>
+      </div>
+    </div>
+    <hr/>  
+    <div class="container wow fadeInUp">
+      <div class="row">        
+        <div class="col-md-1 plc-content"></div>
+        <div class="col-md-10 plc-content">
+          <h2 class="plc-title">Grafcet nivel 1 - Control del proceso de Boca de Pescado</h2>
+          <img src="img/Grafcet boca de pescado-Nivel1.svg" alt="Grafcet nivel 2 corte">
+        </div>
+        <div class="col-md-1 plc-content"></div>        
       </div>
     </div>
     <hr/>
     <div class="container wow fadeInUp">
-      <div class="row">        
-        <div class="col-md-12 plc-content">
+      <div class="row">   
+        <div class="col-md-1 plc-content"></div>     
+        <div class="col-md-10 plc-content">
           <h2 class="plc-title">Grafcet nivel 2 - Control del proceso de Boca de Pescado</h2>
-          <img src="img/grafcet-boca-pescado.svg" alt="Grafcet nivel 2 boca de pescado">
-        </div>        
+          <img src="img/Grafcet boca de pescado-Nivel2.svg" alt="Grafcet nivel 2 boca de pescado">
+        </div>
+        <div class="col-md-1 plc-content"></div>        
       </div>
     </div>
-
+  </hr>
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title">Corte de tubos</h3>
+        <div class="section-title-divider"></div>
+      </div>
+    </div>
+  </div>
+    <div class="container wow fadeInUp">
+      <div class="row">        
+        <div class="col-md-6 plc-content">          
+          <p class="plc-text">
+            La estación de corte de tubos se encarga de cortar los tubos que entran a la fabrica en las longitudes
+            necesarias para fabricar los marcos de las bicicletas. Se requiere que esta estación corte diferentes longitudes de
+            tubos, por lo que cuenta con un actuador lineal que mueve el tubo la distancia necesaria para cortar el tubo
+            la longitud requerida. Un sujetador de tubos accionado con un cilíndro neumatico permite sujetar el tubo para que se mueva
+            junto con el actuador lineal que sostiene dicho sujetador. Adicionalmente se cuenta con un sujetador fijo a la mesa que se encarga
+            de ayudar a posicionar la el tubo para ser cortado. Una tronzadora se encarga de cortar el tubo con ayuda de un cilindro neumatico que baja y
+            sube el disco de corte. La estación cuenta con un sensor de prescencia-auscencia que no permite que se inicie el proceso de corte
+            si el tubo no está correctamente posicionado.
+          </p>
+          <p class="plc-text">
+            Se cuenta con tres indicadores luminosos que permiten conocer el estado actual de la estación. Un indicador se ilumina cuando la estación está lista
+            para cortar un nuevo tubo. Otro indicador es una alarma que se activa cuando el operador mandó a iniciar el proceso del corte con el tubo mal posicionado. El tercer 
+            indicador se activa cuando hay una pieza en proceso(el tubo se está cortando). El programa del controlador tiene un contador que permite visualizar en una HMI la cantidad
+            de tubos que han sido cortados. El programa permite que un operadrio de la máquina por medio de botones configure la longitud de tubos a la que se quiere llegar. Con este dato el 
+            programa calcula cuantos cortes se pueden realizar de ese tamaño con 6 metros de tubo y posteriormente realiza ese número de cortes automáticamente
+          </p>
+          <p class="plc-text">
+          A continuación se muestra el diagrama Grafcet tecnologico y funcional implementado en las estaciones. Puede consultar descargar la implementación del Grafcet en Studio 5000 en el siguiente <a href="files/Grafcet Estacion Corte.pdf" target="_blank">enlace</a> 
+          </p>
+        </div>
+        <div class="col-md-6 plc-content">
+          <img src="img/estacion_boca_pescado_actuadores.jpeg" alt="description img" title="title img"/>       
+        </div>
+      </div>
+    </div>
+    <hr/>  
+    <div class="container wow fadeInUp">
+      <div class="row">  
+        <div class="col-md-1 plc-content"></div>      
+        <div class="col-md-10 plc-content">
+          <h2 class="plc-title">Grafcet nivel 2 - Control del proceso de Corte de Tubos</h2>
+          <img src="img/Grafcet corte tubos-Nivel1.svg" alt="Grafcet nivel 2 boca de pescado">
+        </div>
+        <div class="col-md-1 plc-content"></div>        
+      </div>
+    <hr/>
+    </div>
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-1 plc-content"></div>        
+        <div class="col-md-10 plc-content">
+          <h2 class="plc-title">Grafcet nivel 2 - Control del proceso de Corte de Tubos</h2>
+          <img src="img/Grafcet corte tubos-Nivel2.svg" alt="Grafcet nivel 2 boca de pescado">
+        </div>
+        <div class="col-md-1 plc-content"></div>  
+      </div>
+    </div>
   </section>
 
   <!--==========================
