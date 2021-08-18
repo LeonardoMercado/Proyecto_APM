@@ -1166,12 +1166,12 @@ tr:hover td{
 }
 
 #testimonials .profile .pic {
-  border-radius: 50%;
+  border-radius: 75%;
   border: 6px solid #fff;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   overflow: hidden;
-  height: 260px;
-  width: 260px;
+  height: 250px;
+  width: 250px;
 }
 
 #testimonials .profile .pic img {
@@ -1194,7 +1194,7 @@ tr:hover td{
   padding: 25px;
   margin-top: 40px;
   font-size: 24px;
-  font-style: inherit;
+  font-style: italic;
   border-radius: 30px;
   border: 2px solid #03C4EB;
 }
@@ -1227,7 +1227,7 @@ tr:hover td{
 }
 
 #team .member .pic {
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   overflow: hidden;
   height: 260px;
 }
