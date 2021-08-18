@@ -35,6 +35,10 @@ hr {
   border: #03C4EB solid 1px;
   width: 50%;
 }
+.hrmin{
+  border: #03C4EB solid 1px;
+  width: 15%;
+}
 
 /* Prelaoder */
 #preloader {
@@ -943,7 +947,47 @@ tr:hover td{
 
 /*-----------------------------------------------*/
 
+/* Aprendizaje:
+------------------------------------------------*/
 
+#aprendizaje {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#aprendizaje .aprendizaje-container-left {
+  background: url(../img/about-img.jpg) left top no-repeat;
+}
+
+#aprendizaje .aprendizaje-container-rigth {
+  background: url(../img/about-img.jpg) right top no-repeat;
+}
+
+#aprendizaje img{
+  width: 100%;
+}
+
+#aprendizaje .aprendizaje-content {
+  background: #fff;
+}
+
+#aprendizaje .aprendizaje-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+#aprendizaje .aprendizaje-text {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#aprendizaje .aprendizaje-text:last-child {
+  margin-bottom: 0;
+}
+
+/*-----------------------------------------------*/
 
 
 
@@ -1113,7 +1157,7 @@ tr:hover td{
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: #f6f6f6;
+  background: #E4F4FD;  
   padding: 80px 0;
 }
 
@@ -1136,7 +1180,7 @@ tr:hover td{
 
 #testimonials .profile h3 {
   font-weight: 700;
-  color: #03C4EB;
+  color: black;
   margin-bottom: 5px;
 }
 
@@ -1147,11 +1191,12 @@ tr:hover td{
 #testimonials .quote {
   position: relative;
   background: #fff;
-  padding: 60px;
+  padding: 25px;
   margin-top: 40px;
-  font-size: 16px;
+  font-size: 24px;
   font-style: inherit;
-  border-radius: 5px;
+  border-radius: 30px;
+  border: 2px solid #03C4EB;
 }
 
 #testimonials .quote b {
