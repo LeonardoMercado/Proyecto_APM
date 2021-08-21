@@ -2177,10 +2177,129 @@
           </p>                  
         </div>
         <div class="col-md-6 scada-content">
-          <img src="img/scada-presentacion.png" alt="Scada"/>        
+          <img src="img/scada.jpg" alt="Scada"/>        
         </div>
       </div>
     </div>  
+    <hr/>
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="section-title">Componentes de nuestro SCADA</h4>          
+      </div>
+      <div class="row">        
+        <div class="col-md-8 scada-content">
+          <img src="img/1.png">          
+        </div>
+        <div class="col-md-4 scada-content">
+          <h2>Control</h2>
+          <p class="scada-text">
+            El componente de control en nuestro SCADA esta diseñado de forma tal que desde allí se inicialice toda la operación de producción dándole <i>“permisos”</i> a las estaciones de poder trabajar, desde aquí también podemos controlar el tipo de bicicleta a fabricar y tener una pequeña preview de si las estaciones tienen permitido o no operar.
+          </p>          
+        </div>
+      </div>
+      <br></br>
+      <br></br>
+      <div class="row">  
+        <div class="col-md-4 scada-content">
+          <h2>Supervisión General</h2>
+          <p class="scada-text">
+            El componente de Supervisión de nuestro SCADA está diseñado para tener en una primera pantalla o vista General de supervisión el estado de cada una de las estaciones, en donde se puede ver rápidamente si las estaciones estan en producción, mantenimiento o si se encuentran detenidas, también se implementa un visualizador de la producción con un indicador de meta diaria de producción con un indicador lateral. Por ultimo se implemento la lectura de una variable global que indica la presión del compresor en la fábrica, esta variable tiene su dato numérico el cual es determinado en un momento del tiempo y tiene también un indicador lateral que informa o ayuda al lector a saber si dicho valor se encuentra dentro de los parametros satisfactorios. 
+          </p>          
+        </div>      
+        <div class="col-md-8 scada-content">
+          <img src="img/2.png">          
+        </div>        
+      </div>
+      <br></br>
+      <br></br>
+      <div class="row">  
+        <div class="col-md-8 scada-content">
+          <img src="img/3.png">          
+        </div> 
+        <div class="col-md-4 scada-content">
+          <h2>Supervisión: Estaciones de corte y Boca de pescado</h2>
+          <p class="scada-text">
+            De manera adicional contamos con ventanas de supervisión para cada estación en donde se monitora los estados y valores de interes de cada estación, para el caso de las estaciones de corte y boca de pescado se cuentan con indicadores de estados, para conocer si se encuentran en producción, mantenimiento o en detención. De igual manera se monitorea la producción con su tendencia y la presión de aire que llega a cada estación con su valor puntual en el instante de tiempo, el indicador de rango y el indicador de tendencias de la variable. 
+          </p>          
+        </div>    
+      </div>
+      <br></br>
+      <br></br>
+      <div class="row">  
+        <div class="col-md-4 scada-content">
+          <h2>Supervisión: Estación de soldadura</h2>
+          <p class="scada-text">
+            Para la supervisión de la estación de soldadura se implementaron las etiquetas de estado de la estación anteriormente mencionadas, de igual manera se implementa el indicador de producción y se monitorea la variable de interes que para esta estación es el material de aporte que necesita el robot para soldar, de igual manera este dato cuenta con su display que informa del valor de la variable en un instante de tiempo, un indicador de rango aceptable y una gráfica de tendencias en donde podemos visualizar como se ha comportado esta variable en el tiempo. 
+          </p>          
+        </div>
+        <div class="col-md-8 scada-content">          
+          <img src="img/4.png">          
+        </div>            
+      </div>
+      <br></br>
+      <br></br>
+      <div class="row">          
+        <div class="col-md-8 scada-content">          
+          <img src="img/5.png">          
+        </div>  
+        <div class="col-md-4 scada-content">
+          <h2>Alarmas</h2>
+          <p class="scada-text">
+            El componente de alarmas de nuestro SCADA esta diseñado de manera tal que muestre las alarmas en función de su prioridad: critica, alta, media, baja; Con la información de en que momento se activo la alarma, a que corresponde dicha alarma y su estado: Activada o desactivada. Las alarmas que posee nuestro proyecto son:
+          </p>          
+          <ul>
+            <li>Parada o detención de las estaciones.</li>
+            <li>Estado de mantenimiento estación de las estaciones.</li>
+            <li>Fallo en la comunicación estación de las estaciones.</li>
+            <li>Presión de aire(exceso o baja) para las estaciones de corte y boca de pescado.</li>
+            <li>Terminación del material de aporte para la estación de soldadura.</li>            
+          </ul>
+        </div>          
+      </div>
+      <br></br>
+      <br></br>
+      <div class="row"> 
+        <div class="col-md-4 scada-content">
+          <h2>Historicos</h2>
+          <p class="scada-text">
+            El componente de historicos de nuestro SCADA esta diseñado para informar de en que momento del tiempo las estaciones se encuentran operando o no, bien sea por mantenimiento o por detenciones, esto se informa con graficas de estado en el que alto corresponde a que la estación está operando y bajo significa que la estación esta detenida por alguna razón.
+          </p>    
+        </div>
+        <div class="col-md-8 scada-content">          
+          <img src="img/6.png">          
+        </div>           
+      </div>
+      <br></br>
+      <br></br>
+      <div class="row">         
+        <div class="col-md-8 scada-content">          
+          <img src="img/7.png">          
+        </div>
+        <div class="col-md-4 scada-content">
+          <h2>KPIs</h2>
+          <p class="scada-text">
+            El componente de KPIs de nuestro SCADA esta diseñado para informar sobre la eficiencia general de la planta de producción, esto se hace a través del indicador de desempeño OEE. A través de nuestro SCADA nube se recopilan los datos de disponibilidad, desempeño y calidad de las estaciones con dichos datos se calcula el OEE general de nuestro proceso de producción.
+          </p>    
+        </div>           
+      </div>      
+      <br></br>
+      <br></br>
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="section-title">Video SCADA del proyecto</h3>
+          </div>
+        </div> 
+        <div class="row">         
+          <div class="col-md-2 scada-content"></div> 
+          <div class="col-md-8 scada-content">
+            <iframe width="800" height="580" src="https://www.youtube.com/embed/xN8uS9e0lxk" title="Video Scada" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-2 scada-content"></div>           
+        </div>
+      </div>
+    </div>
     <hr/>
     <div class="container wow fadeInUp">
       <div class="row">
